@@ -1,0 +1,217 @@
+/* Pozadina */
+body {
+  background-color: darkcyan;
+}
+/* Pozicija dugmadi Images i Advanced */
+div{
+ position: fixed;
+  top: 0%;
+  left: 78%;
+  width: 25%;
+}
+/* Izgled dugmadi Images i Advanced */
+a{
+  text-decoration: none;
+  color:white;
+  float: left;
+ margin-left: 7%;
+ font-size: small;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* Izgled Im Feeling Lucky dugmeta */
+input.sbutton3{
+  position: fixed;
+  top: 55%;
+  left: 52%;
+  width: 15%;
+  height: 3.5%;
+  border-radius: 12px;
+  border: none;
+  font-size: medium;
+
+}
+
+/*Izgled google search dugmeta */
+input.sbutton2 {
+  position: fixed;
+  top: 55%;
+  left: 32%;
+  width: 15%;
+  height: 3.5%;
+  border-radius: 12px;
+  border: none;
+  font-size: medium;
+
+}
+/* Izgled search bara */
+input.sbutton {
+    height: 5%;
+    width: 35%;
+  border-radius: 25px;
+  position: fixed;
+  top: 43%;
+  left: 32%;
+ text-align: center;
+ font-size: large;
+ font-family:Arial, Helvetica, sans-serif ;
+ border: none;
+}
+/* Google slika */
+img {
+  position: fixed;
+  width: 16%;
+  height: 32%;
+  left: 41.5%;
+  bottom: 52%;
+}
+/* Footer */
+footer {
+  background-color:black;
+  color: #fff;
+  position: fixed;
+  right:0%;
+  top:85%;
+  width: 100%;
+  height:7%;
+  text-align: justify;
+}
+/* Elementi u footeru sa lijeve strane */
+div.elementi{
+  display: flex;
+  top:90%;
+  left:0%;
+  width: 100%;
+  height:10%;
+  color :white;
+  background-color: black;
+  border-top: 1px solid white;
+  padding-left: 3%;
+  padding-top: 1%;
+}
+/* Elementi u footeru sa desne strane */
+div.elementi2{
+  display: flex;
+  top:90%;
+  right:0%;
+  width: 100%;
+  height:10%;
+  padding-right: 3%;
+  padding-top: 1%;
+}
+/* Clanovi u footeru sa lijeve strane */
+p.clan{
+  padding-left: 1.5%;
+  padding-right: 1.5%;
+}
+/* Clanovi u footeru sa desne strane */
+p.clan2{
+  padding-left: 1.5%;
+  padding-right: 1.5%;
+  text-align: right;
+ }
+ /* Izgleda search buttona na images stranici */
+ input.isbutton2 {
+  position: fixed;
+  top: 55%;
+  left: 42.5%;
+  width: 15%;
+  height: 3.5%;
+  border-radius: 12px;
+  border: none;
+  font-size: medium;
+ }
+ /* Dugme na images stranici koje vrace na search stranicu */
+ img.cosak {
+  position: fixed;
+  width: 4%;
+  height: 9%;
+  left: 2%;
+  top: 0%;
+ }
+ /* Images text ispod loga na Google Images searchu */
+ div.goimg {
+  top: 33%;
+  left: 54.5%;
+  color: white;
+ }
+/* Prvi search u advanced */
+div.adv{
+left: 15%;
+top:24%;
+z-index: 1;
+ }
+ /* Drugi search u advanced */
+ div.adv2{
+  left: 15%;
+  top:31%;
+  z-index: 1;
+   }
+ /* Treci search u advanced */
+ div.adv3{
+  left: 15%;
+  top:38%;
+  z-index: 1;
+   }
+ /* Cetvrti search u advanced */
+ div.adv4{
+  left: 15%;
+  top:45%;
+  z-index: 1;
+   }
+ /* Search button u advanced */
+ div.adv5{
+  left: 28%;
+  top:52%;
+  color: blue;
+  z-index: 1;
+   }
+ 
+
+/* Izgled search barova */
+input.advsrc{
+ 
+  width: 80%;
+  height:30%;
+  border: none;
+  margin-bottom: 4%;
+}
+/* Rijeci u advanced searchu */
+div.rijec{
+left: 1%;
+top:15%;
+}
+div.rijeci{
+left: 1%;
+top: 22%;
+}
+div.rijeci2{
+left: 1%;
+top: 29%;
+}
+div.rijeci3{
+left: 1%;
+top: 36%;
+}
+div.rijeci4{
+left: 1%;
+top: 43%;
+}
+/* Izgled teksta */
+.rijec, .rijeci, .rijeci2, .rijeci3, .rijeci4{
+color: white;
+font-size: larger;
+}
+/* Header u advanced */
+div.header{
+border-bottom: 2px solid white;
+width: 100%;
+height:12%;
+left: 0%;
+}
+#header{
+  color:red;
+  font-size: x-large;
+  margin-left: 2%;
+  margin-top: 3.5%;
+
+}
